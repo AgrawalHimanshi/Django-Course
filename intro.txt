@@ -1,0 +1,30 @@
+__init__.py -blank python script that due to its
+special name lets Python know that this directory can
+be treated as a package
+
+settings.py - where you will store all your project
+settings
+
+urls.py - store all the  URL patterns for
+your project. Basically the different pages of
+your web application
+
+wsgi.py- acts as the web server gateway interface.
+it will later on help us deploy our web app to
+production
+
+manage.py - mostly used python script. it will be
+associated with many commands as we build our web application
+
+admin.py - register models here which Django
+will use then with django's admin interface
+
+apps.py- specific app configuration
+models.py - store app's data models
+tests.py - store test functions to test code
+views.py - functions that handle requests
+and return responses
+
+
+Migration folder- directory stores database
+sprecific information as it relates to models
