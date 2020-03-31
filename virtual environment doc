@@ -1,0 +1,10 @@
+Virtual Environment
+
+pip -m venv project_env
+
+to see all created environments
+conda info --envs
+
+activate env_name
+
+deactivate
